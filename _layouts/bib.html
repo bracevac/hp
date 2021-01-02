@@ -59,7 +59,7 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}}{%- if entry.volume -%}&nbsp;{{ entry.volume }}{%- endif-%}{%- if entry.number -%}, {{ entry.number }}{%- endif -%}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
       {% endif %}
@@ -115,6 +115,9 @@
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+    {% endif %}
+    {% if entry.url %}
+      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Link</a>
     {% endif %}
     </div>
 
