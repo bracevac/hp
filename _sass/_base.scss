@@ -46,7 +46,7 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1em;
     p {
       display: inline-block;
       margin: 0;
@@ -170,7 +170,7 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       color: var(--global-icon-color);
       &:hover {
@@ -295,6 +295,37 @@ footer.sticky-bottom {
 }
 
 
+.myabbr {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+          display: inline-block;
+          background-color: var(--global-theme-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+}
+
+.mybtn {
+          color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          padding-top: 0.25rem !important;
+          padding-bottom: 0.25rem !important;
+          &:hover {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+        }
+
+
 // Publications
 
 .publications {
@@ -313,7 +344,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
+    color: $grey-color;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
