@@ -11,6 +11,8 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-icon-color: #{$grey-color-dark};
+  --global-my-box-color: #{$white-color};
+  --global-my-box-text-color: #{$black-color};
 
   .fa-sun {
     display : none;
@@ -31,6 +33,9 @@ html[data-theme='dark'] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-icon-color: #{$grey-color-light};
+  --global-my-box-color: #{$grey-color-light};
+  --global-my-box-text-color: #{$grey-color-dark};
+
 
   .fa-sun {
     padding-left: 10px;

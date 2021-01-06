@@ -143,6 +143,8 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
+  relative: "/publications" 
+
   query: "@*"
 
 # -----------------------------------------------------------------------------
