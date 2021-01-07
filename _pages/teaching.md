@@ -6,9 +6,13 @@ description:
 nav: true
 ---
 
-## Students
+### Students
 **Current**
 * [Guannan Wei](http://continuation.passing.style) (PhD), *Purdue*
+* [Hannah Leung](https://github.com/palindromeleung) (PhD), *Purdue*
+  * Research on dependent object types (DOT).
+* [Nitin John Raj](https://github.com/njayinthehouse) (Undergrad), *Purdue*
+  * Research on dependent object types (DOT).
 * [Vaastav Arora](https://github.com/VaastavA) (Undergrad), *Purdue*
   * Research project on coeffect systems in Scala 3/Dotty.
 
@@ -18,7 +22,7 @@ nav: true
 * Fabian Muscariello, *TU Darmstadt*, 2015
   * Bachelor's Thesis : A Unifying Framework for Complex Event Processing.
 
-## Courses
+### Courses
 
 
 **Purdue University**

@@ -8,7 +8,7 @@ nav: true
 ---
 
 
-## Program Committee Membership
+### Program Committee Membership
 
 * 2020
   * Scala Symposium
@@ -16,7 +16,7 @@ nav: true
 * 2016
   * ECOOP Doctoral Symposium
 
-## Peer Reviewing
+### Peer Reviewing
 
 * 2020
   * Journal of Functional Programming (JFP)
@@ -41,7 +41,7 @@ nav: true
   * Workshop on Reactive and Event-based Languages & Systems (REBLS)
   * ACM SIGPLAN International Conference on Software Language Engineering (SLE) 
 
-## Volunteering
+### Volunteering
 
 * 2015
   * Student Volunteer, ACM SIGPLAN SPLASH 2015 Conference

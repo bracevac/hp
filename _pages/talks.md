@@ -8,11 +8,11 @@ nav: true
 ---
 
 **Towards Full Dependent Types in Scala**
-<a href="{{ 'edot_purpl.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="mybtn btn btn-sm z-depth-0" role="button" target="_blank">Slides</a><br/>
+<a href="{{ 'edot_purpl.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="mybtn btn btn-sm " role="button" target="_blank">Slides</a><br/>
 Invited talk at [PurPL Retreat 2020](https://purpl.cs.purdue.edu/retreat-2020.html), August 31, 2020.
 
 **Event Correlation Systems à la Carte** 
-<a href="{{ 'purpl_talk.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="mybtn btn btn-sm z-depth-0" role="button" target="_blank">Slides</a><br/>
+<a href="{{ 'purpl_talk.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="mybtn btn btn-sm " role="button" target="_blank">Slides</a><br/>
 Invited talk at Purdue University/PurPL, USA, November 15, 2019. Host : Tiark Rompf.
 
 **Programming and Reasoning with Algebraic Effects and Effect Handlers**<br/> 
