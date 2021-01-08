@@ -8,16 +8,37 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, table, th {
+	font-weight: 300 !important;
+}
+
 a, table.table a {
-  color: var(--global-theme-color);
+  color: var(--global-theme-color) !important ;
+  text-decoration: none !important;
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-theme-color) !important;
+    text-decoration: underline !important;
   }
   &:hover:after {
     width: 100%;
   }
 }
+
+a#light-toggle {
+  color: var(--global-text-color) !important ;
+
+}
+
+/*
+.font-weight-bold, b {
+        font-family : "Roboto", sans-serif;
+        font-weight : bold !important;
+}
+
+strong {
+        font-family : "Roboto", sans-serif;
+        font-weight : normal !important;
+}*/
 
 // Math
 
@@ -95,24 +116,24 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color) !important;
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-hover-color) !important;
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-theme-color) !important;
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-hover-color) !important;
       }
   }
   .contact-icon {
     font-size: 2rem;
     a {
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-hover-color) !important;
       }
     }
   }
@@ -172,9 +193,9 @@ a, table.table a {
   .contact-icon {
     font-size: 2rem;
     a {
-      color: var(--global-icon-color);
+      color: var(--global-icon-color) !important;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
       }
     }
   }
@@ -186,15 +207,15 @@ a, table.table a {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-footer-bg-color) !important;
   font-size: 0.75rem;
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-footer-text-color) !important;
     padding-top: 9px;
     padding-bottom: 8px;
   }
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-footer-link-color) !important;
     &:hover {
       color: pink;
       text-decoration: none;
@@ -313,15 +334,15 @@ footer.sticky-bottom {
 }
 
 .mybtn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-text-color) !important;
+          border: 1px solid var(--global-text-color) !important;
           padding-left: 1rem !important;
           padding-right: 1rem !important;
           padding-top: 0.25rem !important;
           padding-bottom: 0.25rem !important;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-theme-color) !important;
+            border-color: var(--global-theme-color) !important;
           }
           -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
           box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
@@ -350,7 +371,7 @@ footer.sticky-bottom {
      color : var(--global-my-box-text-color) !important;
   }
   .links > .btn {
-    border: 1px solid var(--global-my-box-text-color);
+    border: 1px solid var(--global-my-box-text-color) !important;
   }
 }
 
@@ -406,7 +427,7 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+              font-weight : 400 !important;
       }
       .author {
         a {
@@ -423,15 +444,15 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-text-color) !important;
+          border: 1px solid var(--global-text-color) !important;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-theme-color) !important;
+            border-color: var(--global-theme-color) !important;
           }
         }
       }
