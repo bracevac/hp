@@ -19,18 +19,24 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 My general interests are programming languages and compilers.
-I explore new ways of programming complex systems, in order to make them simpler, safer and 
-more robust.  
+I explore new ways of programming complex systems, in order to make them simpler, safer,
+more robust, and more scalable. 
 
-My [contributions](publications/) span the areas of functional programming, effect systems, 
+I am a strong proponent of functional programming and formal methods, and a logician
+at heart.
+
+My [contributions](/publications/) and [projects](/projects/)
+span the areas of functional programming, effect systems, 
 type theory, verification, distributed/reactive programming, 
 stream/event processing, and symbolic execution. 
 
-I am a strong proponent of functional programming and formal methods, and a logician
-at heart.  I like my functions first-class, but do not scoff when they are second-class.
-I am not too shy to call a continuation twice. When I reflect upon an issue, I tend
-to reify new ideas. Pondering what is my effect on the world and what coeffect
-it grants me.  Always the strong type, sometimes existential, and increasingly dependent. 
+Being not too picky, I work with both [first- and second-class](https://dl.acm.org/doi/10.1145/2983990.2984009) functions.
+When I [reflect]( https://dl.acm.org/doi/10.1145/237721.237784) upon an issue, I tend
+to reify new ideas. I survived callback hell by [shifting](https://en.wikipedia.org/wiki/Delimited_continuation) my perspective. 
+Pondering if the world can [handle my effects](https://www.eff-lang.org/handlers-tutorial.pdf) and what [coeffect](http://tomasp.net/coeffects)
+it grants me.  Always the strong type, sometimes [existential](https://doi.org/10.1145/44501.45065), and 
+increasingly becoming [dependent](https://ncatlab.org/nlab/show/Martin-L%C3%B6f+dependent+type+theory). 
+
 
 I am always looking for talented and strongly motivated students to work on a thesis or research
 project.
