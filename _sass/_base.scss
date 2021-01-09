@@ -24,9 +24,50 @@ a, table.table a {
   }
 }
 
+.toggle-container {
+  padding-top : 4pt;
+}
+
 a#light-toggle {
   color: var(--global-text-color) !important ;
+  text-decoration : none !important;
+}
 
+.accordion-button {
+        color: var(--global-my-box-text-color) !important ;
+        border : 1px solid !important;
+        border-color : var(--global-my-border-color) !important ;
+
+}
+
+a.btn {
+text-decoration : none !important;
+}
+
+.accordion-button.collapsed {
+color: var(--global-text-color) !important ;
+
+    border-bottom-width: 0 !important;
+
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+	border-bottom-width: 1px !important;
+	border-bottom-right-radius: .25rem !important;
+	border-bottom-left-radius: .25rem !important;
+}
+
+.accordion-collapse {
+	border: solid var(--global-my-border-color) !important;
+	border-width: 0 1px !important;
+}
+
+.accordion-button:not(.collapsed) {	
+	background-color: var(--global-my-box-color)  !important;
+}
+
+.accordion-button::after {
+	background-image: var(--global-thingy) !important;
 }
 
 /*
