@@ -57,6 +57,12 @@ color: var(--global-text-color) !important ;
 	border-bottom-left-radius: .25rem !important;
 }
 
+.accordion-item:last-of-type .accordion-collapse.show {
+	border-bottom-width: 1px !important;
+	border-bottom-right-radius: .25rem !important;
+	border-bottom-left-radius: .25rem !important;
+}
+
 .accordion-collapse {
 	border: solid var(--global-my-border-color) !important;
 	border-width: 0 1px !important;
