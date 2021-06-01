@@ -9,8 +9,9 @@ name_ipa : bratʃevats
 email: firstname -at- bracevac -dot- org
 description: 
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://github.com/alshedivat/al-folio">al-folio</a>,
+  and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Analytics by <a href="https://panelbear.com/cookie-free-analytics/" target="_blank">Panelbear</a>.
 
 url:  https://bracevac.org # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
