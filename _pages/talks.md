@@ -7,7 +7,7 @@ description:
 nav: true
 ---
 
-**Scalable Handling of Effects**
+**Scalable Handling of Effects**<br/>
 [Dagstuhl Seminar 21292](https://www.dagstuhl.de/21292), Germany, July 18 - July 23, 2021.
 
 **Towards Full Dependent Types in Scala**
