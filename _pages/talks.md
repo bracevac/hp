@@ -7,6 +7,9 @@ description:
 nav: true
 ---
 
+**Scalable Handling of Effects**
+[Dagstuhl Seminar 21292](https://www.dagstuhl.de/21292), Germany, July 18 - July 23, 2021.
+
 **Towards Full Dependent Types in Scala**
 <a href="{{ 'edot_purpl.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="mybtn btn btn-sm " role="button" target="_blank">Slides</a><br/>
 Invited talk at [PurPL Retreat 2020](https://purpl.cs.purdue.edu/retreat-2020.html), August 31, 2020.
