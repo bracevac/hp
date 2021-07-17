@@ -4,7 +4,6 @@ title: About
 permalink: /
 description: >
   Postdoctoral Researcher @ <a href="https://cs.purdue.edu">Purdue CS</a> and <a href="https://purpl.cs.purdue.edu/">PurPl</a>.
-  Previously <a href="https://www.stg.tu-darmstadt.de">STG</a> @ TU Darmstadt.
         
 profile:
   align: right
