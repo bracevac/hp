@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Dr. Oliver  Bračevac | blank</title>
+<title>Dr. Oliver  Bračevac | Projects</title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/">
 
 <!-- Theming-->
 
@@ -103,9 +103,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/projects/">
                 Projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -174,56 +176,129 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
+  <header class="post-header">
+    <h1 class="post-title">Projects</h1>
+    <p class="post-description">My research interests and what I have been working on.</p>
+  </header>
+
+  <article>
+    <h3 id="current">Current</h3>
+
+<div class="accordion" id="current">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Cartesius and PolyJoin
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#current">
+      <div class="accordion-body">
+<p><strong>Cartesius</strong> is a semantic model for defining expressive n-way joins/merges over asynchronous event sequences/streams.
+Joins exists in different domains, e.g., stream-relational algebra, complex event patterns, (functional) reactive programming and 
+concurrent programming (join calculus). With Cartesius, we can define join variants in a uniform and structured manner.
+We may think of Cartesius as solving an instance of Wadler's "expression problem" in the realm of big data.
+The workhorse are algebraic effects and handlers, which we employ to interpret declarative join pattern specifications in different ways.</p>
+<p><strong>PolyJoin</strong> complements Cartesius with a pragmatic, type-safe, and purely combinator-based programming language embedding
+of comprehension syntax for joins. It permits more liberal notions of computations than LINQ, respectively monadic
+"do" and "for" comprehensions.</p>
+<hr />
+<b>Code:</b>&nbsp;<a href="https://github.com/bracevac/corrl">github</a>&nbsp;&nbsp;&nbsp;&nbsp;<b>References:</b>&nbsp; <a class="citation" href="/publications#dissertation">[Bračevac 2019]</a> <a class="citation" href="/publications#icfp18">[Bračevac et al. 2018]</a> <a class="citation" href="/publications#polyjoins">[Bračevac et al. 2019]</a> 
+      </div>
+    </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Dotter 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#current">
+      <div class="accordion-body">
+      <p>Coq and Agda developments on the dependent object types (DOT) family of calculi,
+the foundation of the Scala programming language. I explore pathways to bring richer forms of dependent types into the language.
+Occasionally, I also contribute to Tiark Rompf's <a href="https://github.com/tiarkrompf/minidot">minidot</a> repository.</p>
+<hr />
+<b>Code:</b>&nbsp;<a href="https://github.com/bracevac/dotter">github</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Staged Symbolic Execution (SSE) 
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#current">
+      <div class="accordion-body">
+       <p>A principled and performant approach to constructing symbolic
+execution engines and symbolic compilers, which has been considered hard -- until now! 
+We combine programming language's vanilla definitional interpreter, algebraic effects and handlers, multi-stage programming, and the first Futamura projection.</p>
+<hr />
+      <b>Code:</b>&nbsp;<a href="https://github.com/Kraks/sai">github</a>&nbsp;&nbsp;&nbsp;&nbsp;<b>References:</b>&nbsp;<a class="citation" href="/publications#oopsla20">[Wei et al. 2020]</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<p><br /></p>
+
+<h3 id="past">Past</h3>
+
+<div class="accordion" id="past">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="hpastOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pastOne" aria-expanded="false" aria-controls="pastOne">
+        Incremental Type Checkers
+      </button>
+    </h2>
+    <div id="pastOne" class="accordion-collapse collapse" aria-labelledby="hpastOne" data-bs-parent="#past">
+      <div class="accordion-body">
+<p> Explores how we may systematically
+obtain an *incremental* type checker for a given programming language. Incrementalization avoids expensive re-computation
+of type checking and other program analyses in large-scale software projects and thus may lower the latency in IDEs
+and decrease compilation times overall. The project is based on the notion of *co-contextual* typing rules.</p>
+<hr />
+<b>Code:</b>&nbsp;<a href="https://github.com/bracevac/incremental">github</a>&nbsp;&nbsp;&nbsp;&nbsp;<b>References:</b>&nbsp; <a class="citation" href="/publications#oopsla15">[Erdweg et al. 2015]</a> <a class="citation" href="/publications#ecoop17">[Kuci et al. 2017]</a> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="hpastTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pastTwo" aria-expanded="false" aria-controls="pastTwo">
+      Cloud Platform Language (CPL) 
+      </button>
+    </h2>
+    <div id="pastTwo" class="accordion-collapse collapse" aria-labelledby="hpastTwo" data-bs-parent="#past">
+      <div class="accordion-body">
+      <p>
+Explores foundations of typed distributed programming
+with first-class server abstractions, join patterns for synchronization, and transparent placement. Server configurations, deployments,
+and cloud/middleware services can be programmed as libraries of combinators in CPL. These tasks usually require a multitude of 
+unsafe configuration languages with no safety net. Comes with an interpreter in  <a href="https://www.scala-lang.org">Scala</a> and a <a href="https://redex.racket-lang.org">PLT Redex</a> mechanization. 
+      </p>
+      <hr />
+<b>Code:</b>&nbsp;<a href="https://github.com/bracevac/djc-lang">github</a>&nbsp;&nbsp;&nbsp;&nbsp;<b>References:</b>&nbsp; <a class="citation" href="/publications#modularity">[Bračevac et al. 2016]</a>  
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="hpastThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pastThree" aria-expanded="false" aria-controls="pastThree">
+       Modular Assembly Kit for Security Properties (MAKS) 
+      </button>
+    </h2>
+    <div id="pastThree" class="accordion-collapse collapse" aria-labelledby="hpastThree" data-bs-parent="#past">
+      <div class="accordion-body">
+       <p>A mechanization of Heiko Mantel's *Modular Assembly Kit for Security Properties*
+          in the proof assistant <a href="http://isabelle.in.tum.de">Isabelle/HOL</a>.</p>
+          <hr />
+      <b>Code:</b>&nbsp;<a href="https://www.isa-afp.org/entries/Modular_Assembly_Kit_Security.html">Archive of Formal Proofs</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 
